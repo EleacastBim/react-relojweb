@@ -10,11 +10,10 @@ export default function App() {
   })
   return (
     <div className = "container">
-      <div className="card text-white bg-success mb-3"> 
-        <div className="card-header">Timer</div>
+      <div className="card text-white bg-success mb-2"> 
           <div className="card-body">
           <p className="card-text">{time}</p>
-        </div>
+          </div>
       </div>
     </div>
     
